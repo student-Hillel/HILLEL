@@ -18,7 +18,7 @@ class Auto():
         print('Stop')
 
     def __init__(self, brand, color, mark, weight):
-        print(f'Brand: {brand}, Color: {color}, Mark: {mark}, Weight: {weight}')
+        print(f'Brand: {brand}, Color: {color}, Mark: {mark}, Weight: {weight}') # переробити бо в інтіт прінт не можна прокиувати
 
 
 class Truck(Auto):
